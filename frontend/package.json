@@ -1,0 +1,30 @@
+{
+  "name": "go-links",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mzk622/go-links.git"
+  },
+  "author": "mzk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzk622/go-links/issues"
+  },
+  "homepage": "https://github.com/mzk622/go-links#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.27",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@reduxjs/toolkit": "^1.8.1"
+  }
+}
