@@ -3,6 +3,7 @@
     "target": "es2020",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+    "outDir": "./dist",
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,6 +17,6 @@
     "incremental": true
   },
   "include": [
-    "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
